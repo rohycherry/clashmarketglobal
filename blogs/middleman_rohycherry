@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Official Middleman Service & Trading Safety for COC | Clash Market Global</title>
+
+<meta name="description" content="Learn about the Clash Market Global middleman process, transaction coordination, official contact methods, and important trading safety information.">
+
+<meta name="robots" content="index, follow">
+
+<style>
+
+/* =========================================
+   RESET
+========================================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#080d18;
+    color:#ffffff;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+header{
+    width:100%;
+    background:#0b1120;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.header-container{
+    max-width:1200px;
+    margin:auto;
+    padding:16px 25px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo-area{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    color:#fff;
+}
+
+.logo-area img{
+    width:45px;
+    height:45px;
+    object-fit:contain;
+}
+
+.logo-text{
+    display:flex;
+    flex-direction:column;
+}
+
+.logo-text strong{
+    font-size:17px;
+    letter-spacing:.5px;
+}
+
+.logo-text span{
+    color:#64748b;
+    font-size:10px;
+    letter-spacing:2px;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+nav a{
+    color:#94a3b8;
+    font-size:14px;
+    transition:.25s;
+}
+
+nav a:hover{
+    color:#fff;
+}
+
+.header-btn{
+    background:#2563eb;
+    color:#fff !important;
+    padding:10px 20px;
+    border-radius:7px;
+    font-weight:bold;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero{
+    padding:85px 20px 70px;
+    text-align:center;
+    background:
+    radial-gradient(
+        circle at top center,
+        rgba(37,99,235,.18),
+        transparent 55%
+    );
+}
+
+.hero-tag{
+    display:inline-block;
+    color:#60a5fa;
+    background:rgba(37,99,235,.1);
+    border:1px solid rgba(59,130,246,.3);
+    padding:7px 14px;
+    border-radius:30px;
+    font-size:11px;
+    font-weight:bold;
+    letter-spacing:1.5px;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    max-width:850px;
+    margin:auto;
+    font-size:48px;
+    line-height:1.2;
+    letter-spacing:-1px;
+}
+
+.hero p{
+    max-width:680px;
+    margin:20px auto 0;
+    color:#94a3b8;
+    font-size:17px;
+    line-height:1.7;
+}
+
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+.content-section{
+    max-width:850px;
+    margin:auto;
+    padding:30px 20px 60px;
+}
+
+.intro-text{
+    font-size:19px;
+    color:#cbd5e1;
+    line-height:1.9;
+    padding-bottom:30px;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.content-section h2{
+    font-size:28px;
+    margin:45px 0 15px;
+    color:#fff;
+}
+
+.content-section p{
+    color:#aeb7c5;
+    font-size:16px;
+    line-height:1.9;
+    margin-bottom:20px;
+}
+
+
+/* =========================================
+   PROCESS
+========================================= */
+
+.process-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+    margin:35px 0;
+}
+
+.process-card{
+    background:#0f172a;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:14px;
+    padding:25px;
+}
+
+.step-number{
+    width:35px;
+    height:35px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#2563eb;
+    border-radius:50%;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:16px;
+}
+
+.process-card h3{
+    font-size:17px;
+    margin-bottom:10px;
+}
+
+.process-card p{
+    font-size:13px;
+    color:#94a3b8;
+    line-height:1.7;
+    margin:0;
+}
+
+
+/* =========================================
+   WARNING
+========================================= */
+
+.warning-box{
+    display:flex;
+    gap:15px;
+    padding:22px;
+    margin:35px 0;
+    background:#101827;
+    border:1px solid rgba(59,130,246,.25);
+    border-radius:14px;
+}
+
+.warning-icon{
+    min-width:35px;
+    width:35px;
+    height:35px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    background:#2563eb;
+    font-weight:bold;
+}
+
+.warning-box strong{
+    display:block;
+    margin-bottom:5px;
+}
+
+.warning-box p{
+    margin:0;
+    font-size:14px;
+}
+
+
+/* =========================================
+   OFFICIAL CONTACT
+========================================= */
+
+.official-contact{
+    max-width:850px;
+    margin:0 auto;
+    padding:0 20px 80px;
+}
+
+.contact-box{
+    background:#0f172a;
+    border:1px solid rgba(59,130,246,.35);
+    border-radius:20px;
+    padding:40px;
+    text-align:center;
+
+    background:
+    radial-gradient(
+        circle at top,
+        rgba(37,99,235,.12),
+        transparent 65%
+    ),
+    #0f172a;
+}
+
+.contact-badge{
+    display:inline-block;
+    color:#60a5fa;
+    background:rgba(37,99,235,.1);
+    border:1px solid rgba(59,130,246,.25);
+    padding:7px 14px;
+    border-radius:30px;
+    font-size:10px;
+    font-weight:bold;
+    letter-spacing:1.5px;
+    margin-bottom:15px;
+}
+
+.contact-box h2{
+    font-size:30px;
+    margin-bottom:12px;
+}
+
+.contact-box > p{
+    max-width:650px;
+    margin:0 auto 30px;
+    color:#94a3b8;
+    font-size:15px;
+    line-height:1.8;
+}
+
+
+/* =========================================
+   CONTACT METHODS
+========================================= */
+
+.contact-methods{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.contact-method{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:20px;
+    text-align:left;
+    background:#080d18;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:14px;
+    transition:.25s;
+}
+
+.contact-method:hover{
+    border-color:rgba(59,130,246,.5);
+    transform:translateY(-3px);
+}
+
+.contact-icon{
+    width:48px;
+    height:48px;
+    min-width:48px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.contact-icon img{
+    width:42px;
+    height:42px;
+    object-fit:contain;
+}
+
+.contact-info span{
+    display:block;
+    color:#64748b;
+    font-size:11px;
+    margin-bottom:3px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.contact-info strong{
+    color:#fff;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.contact-info a{
+    color:#fff;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.contact-info a:hover{
+    color:#60a5fa;
+}
+
+
+.contact-note{
+    padding:16px;
+    border-radius:10px;
+    background:rgba(245,158,11,.06);
+    border:1px solid rgba(245,158,11,.18);
+    color:#cbd5e1;
+    font-size:12px;
+    line-height:1.7;
+}
+
+
+/* =========================================
+   RELATED ARTICLES
+========================================= */
+
+.related-articles{
+    padding:80px 20px;
+    border-top:1px solid rgba(255,255,255,.06);
+    background:#080d18;
+}
+
+.related-container{
+    max-width:1100px;
+    margin:auto;
+}
+
+.section-heading{
+    text-align:center;
+    max-width:650px;
+    margin:0 auto 45px;
+}
+
+.section-tag{
+    display:inline-block;
+    color:#60a5fa;
+    font-size:11px;
+    font-weight:bold;
+    letter-spacing:2px;
+    margin-bottom:12px;
+}
+
+.section-heading h2{
+    font-size:34px;
+    margin-bottom:12px;
+}
+
+.section-heading p{
+    color:#94a3b8;
+    font-size:15px;
+}
+
+
+/* ARTICLE GRID */
+
+.article-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+
+/* ARTICLE CARD */
+
+.article-card{
+    display:block;
+    background:#0f172a;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:16px;
+    overflow:hidden;
+    transition:.25s ease;
+}
+
+.article-card:hover{
+    transform:translateY(-5px);
+    border-color:rgba(59,130,246,.45);
+}
+
+.article-image{
+    width:100%;
+    height:230px;
+    overflow:hidden;
+}
+
+.article-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    transition:.4s ease;
+}
+
+.article-card:hover .article-image img{
+    transform:scale(1.04);
+}
+
+.article-content{
+    padding:25px;
+}
+
+.article-category{
+    display:inline-block;
+    font-size:10px;
+    font-weight:bold;
+    letter-spacing:1.5px;
+    color:#60a5fa;
+    margin-bottom:12px;
+}
+
+.article-content h3{
+    color:#fff;
+    font-size:21px;
+    line-height:1.35;
+    margin-bottom:12px;
+}
+
+.article-content p{
+    color:#94a3b8;
+    font-size:14px;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.read-more{
+    color:#3b82f6;
+    font-size:13px;
+    font-weight:bold;
+}
+
+
+/* =========================================
+   CTA
+========================================= */
+
+.cta-section{
+    padding:75px 20px;
+    text-align:center;
+    background:#080d18;
+}
+
+.cta-box{
+    max-width:800px;
+    margin:auto;
+    padding:50px 25px;
+    border-radius:20px;
+
+    background:
+        radial-gradient(
+            circle at top,
+            rgba(37,99,235,.2),
+            transparent 70%
+        ),
+        #0f172a;
+
+    border:1px solid rgba(59,130,246,.35);
+}
+
+.cta-box span{
+    color:#60a5fa;
+    font-size:11px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+.cta-box h2{
+    font-size:30px;
+    margin:13px 0;
+}
+
+.cta-box p{
+    color:#94a3b8;
+    max-width:550px;
+    margin:0 auto 25px;
+    font-size:15px;
+}
+
+.cta-button{
+    display:inline-block;
+    background:#2563eb;
+    color:#fff;
+    padding:13px 28px;
+    border-radius:8px;
+    font-size:14px;
+    font-weight:bold;
+    transition:.25s;
+}
+
+.cta-button:hover{
+    background:#3b82f6;
+    transform:translateY(-2px);
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer{
+    background:#0f172a;
+    color:#94a3b8;
+    padding:40px 20px;
+    text-align:center;
+    border-top:1px solid rgba(255,255,255,.06);
+}
+
+.footer-bottom{
+    max-width:900px;
+    margin:auto;
+}
+
+.footer-copyright{
+    color:#94a3b8;
+    margin-bottom:15px;
+    font-size:14px;
+}
+
+.footer-brand{
+    color:#3b82f6;
+    font-weight:600;
+}
+
+.footer-description{
+    max-width:800px;
+    margin:0 auto 15px;
+    font-size:12px;
+    line-height:1.7;
+}
+
+.footer-contact{
+    font-size:12px;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.footer-contact a{
+    color:#3b82f6;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.footer-links a{
+    color:#64748b;
+    font-size:12px;
+}
+
+.footer-links a:hover{
+    color:#3b82f6;
+}
+
+.footer-links span{
+    color:#334155;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media(max-width:768px){
+
+    .header-container{
+        padding:13px 18px;
+    }
+
+    .logo-area img{
+        width:40px;
+        height:40px;
+    }
+
+    .logo-text strong{
+        font-size:14px;
+    }
+
+    nav a:not(.header-btn){
+        display:none;
+    }
+
+    .header-btn{
+        padding:9px 14px;
+        font-size:12px;
+    }
+
+    .hero{
+        padding:60px 18px 50px;
+    }
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero p{
+        font-size:15px;
+    }
+
+    .intro-text{
+        font-size:17px;
+    }
+
+    .content-section h2{
+        font-size:24px;
+    }
+
+    .content-section p{
+        font-size:15px;
+    }
+
+    .process-grid{
+        grid-template-columns:1fr;
+    }
+
+    .contact-box{
+        padding:28px 18px;
+    }
+
+    .contact-box h2{
+        font-size:24px;
+    }
+
+    .contact-methods{
+        grid-template-columns:1fr;
+    }
+
+    .related-articles{
+        padding:60px 18px;
+    }
+
+    .section-heading h2{
+        font-size:27px;
+    }
+
+    .article-grid{
+        grid-template-columns:repeat(2,1fr);
+        gap:12px;
+    }
+
+    .article-image{
+        height:120px;
+    }
+
+    .article-content{
+        padding:14px;
+    }
+
+    .article-category{
+        font-size:8px;
+    }
+
+    .article-content h3{
+        font-size:14px;
+        line-height:1.4;
+    }
+
+    .article-content p{
+        display:none;
+    }
+
+    .read-more{
+        font-size:11px;
+    }
+
+    .cta-box{
+        padding:40px 18px;
+    }
+
+    .cta-box h2{
+        font-size:24px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- HEADER -->
+
+<header>
+
+<div class="header-container">
+
+    <a href="/" class="logo-area">
+
+        <img src="/logo.png" alt="Clash Market Global Logo">
+
+        <div class="logo-text">
+
+            <strong>CLASH MARKET GLOBAL</strong>
+
+            <span>SECURE TRADING COMMUNITY</span>
+
+        </div>
+
+    </a>
+
+
+    <nav>
+
+        <a href="/#how-it-works">How It Works</a>
+
+        <a href="/middleman-details">Middleman</a>
+
+        <a href="/#blog">Blog</a>
+
+        <a href="https://t.me/cmgTrade1"
+           target="_blank"
+           class="header-btn">
+
+            Join Community
+
+        </a>
+
+    </nav>
+
+</div>
+
+</header>
+
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <span class="hero-tag">
+        MIDDLEMAN SERVICE
+    </span>
+
+    <h1>
+        Understanding the Role of a Middleman
+    </h1>
+
+    <p>
+        Learn how a neutral third party can help coordinate transactions
+        between buyers and sellers and why verification remains important.
+    </p>
+
+</section>
+
+
+
+<!-- MAIN CONTENT -->
+
+<section class="content-section">
+
+    <p class="intro-text">
+
+        When two people who do not know each other want to complete a digital
+        transaction, the biggest challenge is usually trust. A buyer wants
+        assurance about what they are receiving, while a seller wants assurance
+        that agreed payment conditions will be completed. A middleman can help
+        coordinate communication between both parties.
+
+    </p>
+
+
+    <h2>What Is a Middleman?</h2>
+
+    <p>
+
+        A middleman is a neutral third party who helps coordinate a transaction
+        between a buyer and seller. Instead of requiring one person to completely
+        trust the other, both parties follow an agreed process with assistance
+        from the third party.
+
+    </p>
+
+
+    <h2>How Does the Process Work?</h2>
+
+
+    <div class="process-grid">
+
+        <div class="process-card">
+
+            <div class="step-number">1</div>
+
+            <h3>Agreement</h3>
+
+            <p>
+                The buyer and seller discuss the item, price, and terms before
+                beginning the transaction process.
+            </p>
+
+        </div>
+
+
+        <div class="process-card">
+
+            <div class="step-number">2</div>
+
+            <h3>Coordination</h3>
+
+            <p>
+                The middleman helps coordinate communication and the agreed
+                transaction process between both parties.
+            </p>
+
+        </div>
+
+
+        <div class="process-card">
+
+            <div class="step-number">3</div>
+
+            <h3>Completion</h3>
+
+            <p>
+                Once the agreed conditions have been completed and confirmed,
+                the transaction can move toward final completion.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <h2>Why Verification Matters</h2>
+
+    <p>
+
+        Online impersonation is one of the biggest risks in digital communities.
+        Someone may copy a username, profile picture, or reputation to appear
+        trustworthy.
+
+    </p>
+
+
+    <div class="warning-box">
+
+        <div class="warning-icon">!</div>
+
+        <div>
+
+            <strong>A Middleman Does Not Remove All Risk</strong>
+
+            <p>
+                A middleman can help coordinate a process, but users should still
+                understand the transaction and verify contacts independently.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- OFFICIAL CONTACT -->
+
+<section class="official-contact">
+
+    <div class="contact-box">
+
+        <div class="contact-badge">
+            OFFICIAL CONTACT METHODS
+        </div>
+
+        <h2>Contact the Middleman</h2>
+
+        <p>
+
+            For middleman-related communication, the official contact name is
+            <strong>Rohycherry</strong>. Always verify that you are communicating
+            with the correct account before proceeding.
+
+        </p>
+
+
+        <div class="contact-methods">
+
+
+            <!-- TELEGRAM -->
+
+            <a href="https://t.me/rohycherry"
+               target="_blank"
+               rel="noopener"
+               class="contact-method">
+
+                <div class="contact-icon">
+
+                    <img 
+                        src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"
+                        alt="Telegram Logo"
+                    >
+
+                </div>
+
+                <div class="contact-info">
+
+                    <span>Official Telegram</span>
+
+                    <strong>@rohycherry</strong>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- WHATSAPP -->
+
+            <div class="contact-method">
+
+                <div class="contact-icon">
+
+                    <img 
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                        alt="WhatsApp Logo"
+                    >
+
+                </div>
+
+                <div class="contact-info">
+
+                    <span>WhatsApp Contact</span>
+
+                    <strong>@rohycherry</strong>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="contact-note">
+
+            ⚠ Important: Be cautious of impersonators. Only trust the official
+            contact details listed on Clash Market Global's official website or
+            verified community channels.
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- RELATED ARTICLES -->
+
+<section class="related-articles">
+
+<div class="related-container">
+
+
+    <div class="section-heading">
+
+        <span class="section-tag">
+            KNOWLEDGE BASE
+        </span>
+
+        <h2>
+            Learn Before You Trade
+        </h2>
+
+        <p>
+            Understanding online trading risks can help users make more informed decisions.
+        </p>
+
+    </div>
+
+
+    <div class="article-grid">
+
+
+        <a href="/blogs/Clash_of_Clans_Buy_and_Sell_on_Telegram.html"
+           class="article-card">
+
+            <div class="article-image">
+
+                <img
+                    src="/uploads/postimage1.png"
+                    alt="Clash of Clans Buy and Sell on Telegram"
+                    loading="lazy"
+                >
+
+            </div>
+
+            <div class="article-content">
+
+                <span class="article-category">
+                    COMMUNITY GUIDE
+                </span>
+
+                <h3>
+                    Clash of Clans Buy and Sell on Telegram
+                </h3>
+
+                <p>
+                    Learn how trading communities connect buyers and sellers.
+                </p>
+
+                <span class="read-more">
+                    Read Article →
+                </span>
+
+            </div>
+
+        </a>
+
+
+
+        <a href="/blogs/P2P_vs_Middleman.html"
+           class="article-card">
+
+            <div class="article-image">
+
+                <img
+                    src="/uploads/postimage2.png"
+                    alt="P2P vs Middleman Account Trading"
+                    loading="lazy"
+                >
+
+            </div>
+
+            <div class="article-content">
+
+                <span class="article-category">
+                    TRADING SAFETY
+                </span>
+
+                <h3>
+                    P2P vs Middleman: Understanding the Risks
+                </h3>
+
+                <p>
+                    Understand trust issues and risks in different transaction methods.
+                </p>
+
+                <span class="read-more">
+                    Read Article →
+                </span>
+
+            </div>
+
+        </a>
+
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- CTA -->
+
+<section class="cta-section">
+
+    <div class="cta-box">
+
+        <span>
+            JOIN THE COMMUNITY
+        </span>
+
+        <h2>
+            Need More Information?
+        </h2>
+
+        <p>
+            Join the Clash Market Global community to connect with other members
+            and learn more about the available community resources.
+        </p>
+
+        <a href="https://t.me/cmgTrade1"
+           target="_blank"
+           class="cta-button">
+
+            Join Telegram Community
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-bottom">
+
+    <p class="footer-copyright">
+
+        © 2026
+
+        <span class="footer-brand">
+            CLASH MARKET GLOBAL (CMG)
+        </span>
+
+        | All Rights Reserved
+
+    </p>
+
+
+    <p class="footer-description">
+
+        Clash Market Global (CMG) is an independent digital trading community.
+        Information and community resources are provided for informational
+        purposes. Users are responsible for their own decisions and transactions.
+
+    </p>
+
+
+    <p class="footer-contact">
+
+        📍 <strong>Address:</strong> Beijing, China
+
+        <br>
+
+        ✉️ <strong>Email:</strong>
+
+        <a href="mailto:support@clashmarketglobal.com">
+            support@clashmarketglobal.com
+        </a>
+
+    </p>
+
+
+    <div class="footer-links">
+
+        <a href="/privacy-policy.html">Privacy Policy</a>
+        <span>•</span>
+
+        <a href="/terms-of-use.html">Terms of Use</a>
+        <span>•</span>
+
+        <a href="/disclaimer.html">Disclaimer</a>
+        <span>•</span>
+
+        <a href="/refund-policy.html">Refund Policy</a>
+        <span>•</span>
+
+        <a href="/knowledge-base.html">Knowledge Base</a>
+        <span>•</span>
+
+        <a href="mailto:support@clashmarketglobal.com">Contact Support</a>
+        <span>•</span>
+
+        <a href="/blogs">Blogs</a>
+
+    </div>
+
+</div>
+
+</footer>
+
+
+</body>
+</html>
